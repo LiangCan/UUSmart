@@ -5,4 +5,4 @@ zuul:
   routes:
     api-a:
       path: /u-app/**
-      serviceId: u-app
+      serviceId: uusmart-app
