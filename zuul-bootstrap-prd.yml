@@ -1,3 +1,11 @@
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 119.23.238.27
+    lease-renewal-interval-in-seconds: 10
+    lease-expiration-duration-in-seconds: 30
+
+
 zuul:
   host:
         socket-timeout-millis: 60000
