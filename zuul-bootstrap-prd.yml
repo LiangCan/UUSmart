@@ -1,3 +1,10 @@
+eureka:
+  instance:
+      prefer-ip-address: true
+      ip-address: 127.0.0.1
+      lease-renewal-interval-in-seconds: 10
+      lease-expiration-duration-in-seconds: 30
+
 spring:
     rabbitmq:
       host: 172.19.2.122
