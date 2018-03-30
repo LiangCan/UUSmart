@@ -1,10 +1,6 @@
-eureka:
-  instance:
-     prefer-ip-address: true
-     ip-address: 172.19.2.122
-     lease-renewal-interval-in-seconds: 10
-     lease-expiration-duration-in-seconds: 30
 
+eureka.instance.prefer-ip-address: true
+eureka.instance.ip-address: 119.23.238.27
 
 zuul:
   host:
@@ -12,5 +8,5 @@ zuul:
         connect-timeout-millis: 60000
   routes:
     api-a:
-      path: /u-app/**
+      path: /app-api/**
       serviceId: uusmart-app
