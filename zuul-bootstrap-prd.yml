@@ -1,7 +1,4 @@
 
-eureka.instance.prefer-ip-address: true
-eureka.instance.ip-address: 119.23.238.27
-
 zuul:
   host:
         socket-timeout-millis: 60000
