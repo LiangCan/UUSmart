@@ -1,0 +1,21 @@
+eureka:
+    instance:
+      prefer-ip-address: true
+      ip-address: 172.19.2.122
+      lease-renewal-interval-in-seconds: 10
+      lease-expiration-duration-in-seconds: 30
+
+spring:
+    rabbitmq:
+      host: 172.19.2.122
+      port: 5672
+      username: admin
+      password: admin
+zuul:
+  host:
+        socket-timeout-millis: 60000
+        connect-timeout-millis: 60000
+  routes:
+    api-a:
+      path: /app-api/**
+      serviceId: uusmart-app
