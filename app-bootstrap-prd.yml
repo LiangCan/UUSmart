@@ -16,8 +16,9 @@ management:
   security:
     enabled: false
 
+# 多个tcp地址 XX.XX.XX.XX, XX.XX.XX.XX
 mqtt:
-    url : 172.19.2.122
+    urls : tcp://172.19.2.122
     client:
         id : app—server
         username : sykj
