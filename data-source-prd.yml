@@ -1,4 +1,4 @@
-spring.datasource.url:  jdbc:mysql://119.23.238.27:3306/Ulexa?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false
+spring.datasource.url:  jdbc:mysql://119.23.238.27:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false&verifyServerCertificate=false
 spring.datasource.username: root
 spring.datasource.password: LiangCan123456
 spring.datasource.driverClassName: com.mysql.jdbc.Driver
