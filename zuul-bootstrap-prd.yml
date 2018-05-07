@@ -9,8 +9,8 @@ spring:
     rabbitmq:
       host: 172.19.2.122
       port: 5672
-      username: admin
-      password: admin
+      username: liangcan
+      password: LiangCan123456
 zuul:
   host:
         socket-timeout-millis: 60000
