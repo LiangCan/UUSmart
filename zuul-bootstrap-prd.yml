@@ -17,5 +17,5 @@ zuul:
         connect-timeout-millis: 60000
   routes:
     api-a:
-      path: /app/**
+      path: /u-app/**
       serviceId: uusmart-app
