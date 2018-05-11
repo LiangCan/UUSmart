@@ -1,7 +1,13 @@
-  #用户请求SSID redis保存前缀
+#用户请求SSID redis保存前缀
 diy.redis.prefix.appssid: app:ssid
-   #用户登录信息 redis保存前缀
+
+#用户登录信息 redis保存前缀
 diy.redis.prefix.login: app:login
+
+# ssid 的有效时间，单位：毫秒 
+diy.redis.appssid.validity.time: 4000
+
 
 #token 加密密钥
 token.aes.pwd: liangshuai
+
