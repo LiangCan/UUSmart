@@ -18,5 +18,5 @@ token.aes.pwd: liangshuai
 # APP 稳点版本下载地址
 diy.app.up.url.android: https://www.baidu.com/android
 diy.app.up.url.ios: https://www.baidu.com/ios
-diy.app.up.url.ios: https://www.baidu.com/all
+diy.app.up.url.all: https://www.baidu.com/all
 
