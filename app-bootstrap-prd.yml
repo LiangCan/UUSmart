@@ -10,7 +10,7 @@ spring:
       host: 172.19.2.122
       port: 5672
       username: admin
-      password: admin
+      password: 123456
       
 management:
   security:
