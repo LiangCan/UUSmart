@@ -1,13 +1,31 @@
 #用户请求SSID redis保存前缀
 diy.redis.prefix.appssid: app:ssid
+# ssid 的有效时间，单位：秒 
+diy.redis.appssid.validity.time: 180
+
 
 #用户登录信息 redis保存前缀
 diy.redis.prefix.login.token: app:login:token
-
-# ssid 的有效时间，单位：秒 
-diy.redis.appssid.validity.time: 180
 # token 的有效时间，单位：天 
 diy.redis.token.validit.time: 3
+
+
+#用户保存校验码信息 redis保存前缀
+diy.redis.prefix.check_code: app:check_code
+# checkCode 的有效时间，单位：分钟 
+diy.redis.check_code.validit.time: 5
+
+
+#用户保存邮箱发送次数信息 redis保存前缀
+diy.redis.prefix.check_email_number: app:check_email
+# email 的有效邮箱数量，单位：每天支持N条
+diy.redis.check_code.validit.number: 5
+
+
+
+
+
+
 
 
 # HTTP协议版本
