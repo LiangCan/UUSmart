@@ -13,7 +13,7 @@ management:
 
 # 多个tcp地址 XX.XX.XX.XX, XX.XX.XX.XX
 mqtt:
-    urls : tcp://172.19.2.122
+    urls : tcp://172.19.2.122:1883
     client:
         id : app—server
         username : sykj
