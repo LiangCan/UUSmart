@@ -20,8 +20,8 @@ ribbon:
 
 zuul:
   host:
-        socket-timeout-millis: 60000
-        connect-timeout-millis: 60000
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
   routes:
     api-a:
       path: /u-app/**
