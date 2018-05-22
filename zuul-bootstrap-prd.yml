@@ -12,10 +12,23 @@ spring:
       username: admin
       password: 123456
       
-#ribbon: 
-#    ReadTimeout: 30000 
-#    ConnectTimeout: 5000 
-#    MaxAutoRetries: 0 
+feign:
+  hystrix:
+    enabled: true
 
+zuul:
+  host:
+    max-per-route-connections: 1500
+    max-total-connections: 1500
+    connect-timeout-millis: 30000
+    socket-timeout-millis: 60000
+  routes:
+    api-a:
+      path: /u-app/**
+      serviceId: uusmart-app
 
+ribbon:
+    ReadTimeout: 60000
+    ConnectTimeout: 30000
 
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 180000
