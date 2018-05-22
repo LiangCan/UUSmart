@@ -22,10 +22,13 @@ zuul:
     max-total-connections: 1500
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
+  semaphore:
+    maxSemaphores: 1000
   routes:
     api-a:
       path: /u-app/**
       serviceId: uusmart-app
+      
 
 ribbon:
     ReadTimeout: 60000
