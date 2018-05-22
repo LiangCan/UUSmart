@@ -12,10 +12,10 @@ spring:
       username: admin
       password: 123456
       
-ribbon: 
-    ReadTimeout: 30000 
-    ConnectTimeout: 5000 
-    MaxAutoRetries: 0 
+#ribbon: 
+#    ReadTimeout: 30000 
+#    ConnectTimeout: 5000 
+#    MaxAutoRetries: 0 
 
 
 zuul:
