@@ -21,7 +21,7 @@ zuul:
     max-per-route-connections: 1500
     max-total-connections: 1500
     connect-timeout-millis: 60000
-    socket-timeout-millis: 70000
+    socket-timeout-millis: 60000
   routes:
     api-a:
       path: /u-app/**
@@ -29,6 +29,5 @@ zuul:
 
 ribbon:
     ReadTimeout: 60000
-    ConnectTimeout: 70000
-
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 260000
+    ConnectTimeout: 60000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 120000
