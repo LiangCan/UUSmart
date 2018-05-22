@@ -18,15 +18,4 @@ spring:
 #    MaxAutoRetries: 0 
 
 
-zuul:
-  host:
-    max-per-route-connections: 1500
-    max-total-connections: 1500
-    connect-timeout-millis: 10000
-    socket-timeout-millis: 70000
-  proxy:
-    addProxyHeaders: true
-  routes:
-    api-a:
-      path: /u-app/**
-      serviceId: uusmart-app
+
