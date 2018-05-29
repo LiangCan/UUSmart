@@ -18,16 +18,19 @@ feign:
 
 zuul:
   host:
-    max-per-route-connections: 1500
-    max-total-connections: 1500
+    max-per-route-connections: 2000
+    max-total-connections: 2000
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
   semaphore:
-    maxSemaphores: 1000
+    maxSemaphores: 2000
   routes:
     api-a:
       path: /u-app/**
       serviceId: uusmart-app
+    api-b:
+      path: /u-app-test/**
+      serviceId: uusmart-app-test
       
 
 ribbon:
