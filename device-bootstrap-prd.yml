@@ -17,4 +17,4 @@ mqtt:
         id : dev—server
         username : sykj
         password : 3221353000
-        topic : $queue/u/+
+        topic : $queue/d/+
