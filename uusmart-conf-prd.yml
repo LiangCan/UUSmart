@@ -25,7 +25,8 @@ diy.redis.check_code.validit.number: 5
 
 
 
-
+# HTTP协议版本
+diy.tcp.agreement.version: 0.0.1
 
 
 # HTTP协议版本
