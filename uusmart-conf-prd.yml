@@ -25,8 +25,12 @@ diy.redis.prefix.check_email_number: app:check_email
 # email 的有效邮箱数量，单位：每天支持N条
 diy.redis.check_code.validit.number: 5
 
-
-
+#MQTT每条消息的等待响应超时时间 2秒
+dir.mqtt.push.msg.timeOut: 2000
+#MQTT每条消息重发次数为 2次
+dir.mqtt.repush.msg.number: 2
+#MQTT每条消息回复查询间隔 100 毫秒
+dir.mqtt.check.msg.number: 100
 
 
 # HTTP协议版本
