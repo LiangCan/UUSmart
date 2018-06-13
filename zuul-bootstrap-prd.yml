@@ -31,7 +31,9 @@ zuul:
     api-b:
       path: /u-app-test/**
       serviceId: uusmart-app-test
-      
+    api-c:
+      path: /u-wisdom/**
+      serviceId: uusmart-wisdom
 
 ribbon:
     ReadTimeout: 60000
