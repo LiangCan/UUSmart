@@ -1,0 +1,20 @@
+
+spring:
+    rabbitmq:
+      host: 172.19.2.122
+      port: 5672
+      username: admin
+      password: 123456
+      
+management:
+  security:
+    enabled: false
+
+# 多个tcp地址 XX.XX.XX.XX, XX.XX.XX.XX
+mqtt:
+    urls : tcp://172.19.2.122:1883
+    client:
+        id : wisdom—server
+        username : sykj
+        password : 3221353000
+        topic : s/${spring.application.name}
