@@ -17,4 +17,4 @@ mqtt:
         id : wisdom—server
         username : sykj
         password : 3221353000
-        topic : s/${spring.application.name}
+        topic : s/wisdomSer
