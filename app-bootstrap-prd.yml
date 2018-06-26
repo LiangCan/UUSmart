@@ -18,5 +18,5 @@ mqtt:
         id : app—server
         username : sykj
         password : 3221353000
-        topic : $queue/u/+
+        topic : u/+,s/appSer
         
