@@ -14,7 +14,7 @@ management:
 mqtt:
     urls : tcp://172.19.2.122:1883
     client:
-        id : uusmart-deviceSer
+        id : s/deviceSer
         username : sykj
         password : 3221353000
         topic : d/+,s/deviceSer
