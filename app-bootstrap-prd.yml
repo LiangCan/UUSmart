@@ -15,7 +15,7 @@ management:
 mqtt:
     urls : tcp://172.19.2.122:1883
     client:
-        id : app—server
+        id : s/appSer
         username : sykj
         password : 3221353000
         topic : u/+,s/appSer
