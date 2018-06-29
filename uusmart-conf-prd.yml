@@ -1,3 +1,11 @@
+spring:
+    rabbitmq:
+      host: goodtime-iot.com
+      port: 5672
+      username: admin
+      password: 123456
+
+
 #用户请求SSID redis保存前缀
 diy.redis.prefix.appssid: app:ssid
 # ssid 的有效时间，单位：秒 
