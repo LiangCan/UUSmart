@@ -35,3 +35,10 @@ mqtt:
         password : uusmart
         topic : u/+,s/appSer
         
+fdfs.connect-timeout: 600
+fdfs.so-timeout: 1500
+fdfs.tracker-list[0]: goodtime-iot.com:22122
+fdfs.thumbImage.height: 150
+fdfs.thumbImage.width: 150
+IMAGE_SERVER_URL: http://goodtime-iot.com/
+spring.jmx.enabled: false
