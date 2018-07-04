@@ -13,14 +13,14 @@ spring:
       port: 5672
       username: admin
       password: 123456
-#    thymeleaf:
-#      prefix: classpath:/templates/
-#      suffix: .html
-#      mode: HTML5
-#      encoding: UTF-8
-#      servlet:
-#        conten-type: text/html
-#      cache: false
+    thymeleaf:
+      prefix: classpath:/templates/
+      suffix: .html
+      mode: HTML5
+      encoding: UTF-8
+      servlet:
+        conten-type: text/html
+      cache: false
       
 management:
   security:
@@ -35,10 +35,10 @@ mqtt:
         password : uusmart
         topic : u/+,s/appSer
         
-#fdfs.connect-timeout: 600
-#fdfs.so-timeout: 1500
-#fdfs.tracker-list[0]: goodtime-iot.com:22122
-#fdfs.thumbImage.height: 150
-#fdfs.thumbImage.width: 150
-#IMAGE_SERVER_URL: http://goodtime-iot.com/
-#spring.jmx.enabled: false
+fdfs.connect-timeout: 600
+fdfs.so-timeout: 1500
+fdfs.tracker-list[0]: goodtime-iot.com:22122
+fdfs.thumbImage.height: 150
+fdfs.thumbImage.width: 150
+IMAGE_SERVER_URL: http://goodtime-iot.com/
+spring.jmx.enabled: false
