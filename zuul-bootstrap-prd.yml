@@ -35,6 +35,9 @@ zuul:
     api-c:
       path: /u-wisdom/**
       serviceId: uusmart-wisdom
+    api-d:
+      path: /u-voice/**
+      serviceId: uusmart-voice
 
 ribbon:
     ReadTimeout: 60000
