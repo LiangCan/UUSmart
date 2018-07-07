@@ -1,5 +1,6 @@
-ureka: 
-     instance:
+
+eureka:
+    instance:
         prefer-ip-address: false
         hostname: goodtime-iot.com
         instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
