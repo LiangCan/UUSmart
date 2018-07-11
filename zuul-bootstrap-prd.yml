@@ -38,7 +38,9 @@ zuul:
     api-d:
       path: /u-voice/**
       serviceId: uusmart-voice
-
+    api-e:
+      path: /u-timing/**
+      serviceId: uusmart-timing
 ribbon:
     ReadTimeout: 60000
     ConnectTimeout: 60000
