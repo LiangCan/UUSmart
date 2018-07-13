@@ -19,3 +19,5 @@ mqtt:
     client:
         id : s/voiceSer
         topic : s/voiceSer
+        
+diy.redis.dingdong: redis:dingdong:token
