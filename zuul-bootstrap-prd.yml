@@ -41,6 +41,9 @@ zuul:
     api-e:
       path: /u-timing/**
       serviceId: uusmart-timing
+    api-f:
+      path: /u-timing-test/**
+      serviceId: u-timing-test
 ribbon:
     ReadTimeout: 60000
     ConnectTimeout: 60000
