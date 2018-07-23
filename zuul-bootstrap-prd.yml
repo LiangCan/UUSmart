@@ -41,6 +41,9 @@ zuul:
     api-e:
       path: /u-timing/**
       serviceId: uusmart-timing
+    api-f:
+      path: /u-feedback/**
+      serviceId: uusmart-feedback
       
 ribbon:
     ReadTimeout: 60000
