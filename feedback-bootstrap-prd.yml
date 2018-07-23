@@ -16,5 +16,5 @@ management:
 mqtt:
     urls : tcp://goodtime-iot.com:1883
     client:
-        id : s/wisdomSer
-        topic : s/wisdomSer,w/+
+        id : s/feedbackSer
+        topic : s/feedbackSer
