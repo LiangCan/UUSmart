@@ -48,7 +48,7 @@ zuul:
       path: /u-wisdom-test/**
       serviceId: uusmart-wisdom-test
     api-h:
-      path: /u-timing/**
+      path: /u-timing-test/**
       serviceId: uusmart-timing-test
       
 ribbon:
