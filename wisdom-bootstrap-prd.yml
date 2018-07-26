@@ -1,6 +1,6 @@
 eureka: 
      instance:
-        prefer-ip-address: false
+        prefer-ip-address: true
         hostname: goodtime-iot.com
         instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
         lease-renewal-interval-in-seconds: 10
@@ -25,4 +25,4 @@ ribbon.MaxAutoRetriesNextServer: 0
 hystrix.command.default.execution.isolation.strategy:  SEMAPHORE
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
 #txmanager地址
-tm.manager.url: http://127.0.0.1:8899/tx/manager/
+tm.manager.url: http://goodtime-iot.com:8899/tx/manager/
