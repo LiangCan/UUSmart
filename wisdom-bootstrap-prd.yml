@@ -23,7 +23,7 @@ mqtt:
 ribbon.NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 ribbon.MaxAutoRetriesNextServer: 0
 hystrix.command.default.execution.isolation.strategy:  SEMAPHORE
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 
 ribbon.ReadTimeout: 60000
 ribbon.ConnectTimeout: 60000
