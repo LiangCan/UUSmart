@@ -24,5 +24,9 @@ ribbon.NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
 ribbon.MaxAutoRetriesNextServer: 0
 hystrix.command.default.execution.isolation.strategy:  SEMAPHORE
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 5000
+
+ribbon.ReadTimeout: 60000
+ribbon.ConnectTimeout: 60000
+
 #txmanager地址
 tm.manager.url: http://goodtime-iot.com:8899/tx/manager/
