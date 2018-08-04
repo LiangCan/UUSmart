@@ -17,7 +17,7 @@ mqtt:
     urls : tcp://goodtime-iot.com:1883
     client:
         id : s/wisdomSer
-        topic : s/wisdomSer,w/+
+        topic : s/wisdomTest
         
 #Ribbon的负载均衡策略
 ribbon.NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
