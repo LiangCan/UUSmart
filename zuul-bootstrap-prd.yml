@@ -50,7 +50,7 @@ zuul:
     api-h:
       path: /u-timing-test/**
       serviceId: uusmart-timing-test
-    api-g:
+    api-i:
       path: /u-vivo/**
       serviceId: uusmart-vivo
       
